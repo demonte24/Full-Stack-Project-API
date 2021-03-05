@@ -47,13 +47,13 @@ router.patch('/breeds/:id', requireToken, (req, res, next) => {
 
 // DELETE /delete breeds/dogs/:id
 router.delete('/breeds/:id', requireToken, (req, res, next) => {
-  const id = req.params.id
-  Breed.findById(id)
-    .then(handle404)
-    .then(breed => requireOwnership(req, breed))
-    .then(breed => {
-      breed.deleteOne()
-    })
+  console.log('The request params', req.params)
+    Breed.findById(req.params.id)
+      .then(handle404)
+      .then(breed => {
+        requireOwnership(req, breed)
+        breed.deleteOne()
+      })
     .then(() => res.sendStatus(204))
     .catch(next)
 })
