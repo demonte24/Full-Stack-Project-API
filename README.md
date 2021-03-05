@@ -1,7 +1,7 @@
 # PAWS 4 ALL/ PAW-SOME DOGS
 
 ### Important Links
--	Front-End-Repo: https://github.com/demonte24/PawSome-Dogs-Front-End/tree/main
+-	Front-End-Repo: https://github.com/demonte24/PawSome-Dogs-Front-End/tree/development
 
 -	Deployed API: https://fierce-mountain-14370.herokuapp.com/
 
