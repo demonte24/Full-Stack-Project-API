@@ -2,7 +2,6 @@
 
 // creating a base name for the mongodb
 const mongooseBaseName = 'PawSome-Dogs-API'
-
 // create the mongodb uri for development and test
 const database = {
   development: `mongodb://localhost/${mongooseBaseName}-development`,
