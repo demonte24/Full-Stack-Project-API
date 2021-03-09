@@ -19,6 +19,7 @@ router.post('/breeds', requireToken, (req, res, next) => {
   const breedData = req.body.breed
   console.log(req.body)
   breedData.owner = req.user._id
+  console.log('this is breed data', breedData)
   Breed.create(breedData)
     .then(breed => res.status(201).json(breed))
     .catch(next)
