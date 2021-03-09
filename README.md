@@ -29,7 +29,9 @@ Planning this project has been so fun. Building a website from the ground up and
 -	JavaScript
 
 ### Unsolved Problems
-
+- Add a section where you can make comments 
+- Add a section where the user can add a description 
+- Have other users be able to comment on another user post 
 ### Images
 #### Wireframe:
 https://i.imgur.com/GtBC5s3.jpg
